@@ -1,0 +1,10 @@
+{
+    "extends": "webbylab",
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "plugins": [
+        "more"
+    ]
+}
