@@ -6,7 +6,7 @@
   "scripts": {
     "docker:up": "docker-compose -f docker/docker-compose.yml up",
     "docker:down": "docker-compose -f docker/docker-compose.yml down",
-    "start": "MODE=application NODE_ENV=production node app.mjs",
+    "start": "npm run migration:db && MODE=application NODE_ENV=production node app.mjs",
     "migration:db": "sequelize db:migrate --config lib/config.cjs --env db",
     "migration:test": "sequelize db:migrate --config lib/config.cjs --env test-db",
     "test:lint": "eslint lib app.mjs",

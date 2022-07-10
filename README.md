@@ -6,6 +6,4 @@
 3. run `docker-compose -f docker/docker-compose.yml up`
 4. run `npm install`
 5. run `npm run migration:db`
-6. run `npm run migration:test`
-7. run `npm test`
-8. run `npm run nodemon`
+6. run `npm start`
