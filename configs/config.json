@@ -13,7 +13,9 @@
         "database": "{{DB_DATABASE}}",
         "dialect": "{{DB_DIALECT}}",
         "host": "{{DB_HOST}}",
-        "port": "{{DB_PORT}}"
+        "port": "{{DB_PORT}}",
+        "socketPath": "{{DB_SOCKET_PATH}}",
+        "socketConnectionName": "{{DB_SOCKET_CONNECTION_NAME}}"
     },
     "test-db": {
         "username": "{{TEST_DB_USERNAME}}",
