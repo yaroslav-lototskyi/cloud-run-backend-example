@@ -27,7 +27,7 @@ services:
         environment:
           - MINIO_ACCESS_KEY=cloud-run-backend-example
           - MINIO_SECRET_KEY=cloud-run-backend-example
-          - MINIO_BUCKET=cloud-run-backend-example.local
+          - MINIO_BUCKET=cloud-run-backend-example.bucket
           - MINIO_HOST=minio
           - MINIO_PORT=9000
           - MINIO_IMAGES_DIR=images/
