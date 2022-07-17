@@ -5,4 +5,4 @@ COPY . .
 
 RUN npm install
 
-CMD npm run migration:db && npm start
+CMD npm start
