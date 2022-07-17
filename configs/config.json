@@ -12,10 +12,11 @@
         "password": "{{DB_PASSWORD}}",
         "database": "{{DB_DATABASE}}",
         "dialect": "{{DB_DIALECT}}",
+        "dialectOptions":{
+            "socketPath":"{{DB_SOCKET_PATH}}"
+        },
         "host": "{{DB_HOST}}",
-        "port": "{{DB_PORT}}",
-        "socketPath": "{{DB_SOCKET_PATH}}",
-        "socketConnectionName": "{{DB_SOCKET_CONNECTION_NAME}}"
+        "port": "{{DB_PORT}}"
     },
     "test-db": {
         "username": "{{TEST_DB_USERNAME}}",
